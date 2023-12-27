@@ -27,7 +27,7 @@ static int Quad(float coord_X, float coord_Y)
  static void Main()
         {
             // int n = 161;
-            Console.Write("Требуются координаты числа.\n Числа вводить через ',' .\n");
+            Console.Write("Требуются координаты точки.\n Числа вводить через ',' .\n");
             Console.Write("Введите Х: ");
             string userInput1 = Console.ReadLine();
             float X = float.Parse(userInput1);
