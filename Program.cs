@@ -5,6 +5,25 @@ namespace ConsoleApp1
     internal class Program
     {
 
+static int Quad(float coord_X, float coord_Y)
+{
+    if (coord_X>0)
+    {
+        if (coord_Y>0)
+        {
+                return 1;
+        }else{
+                return 4;
+        }
+    }else{
+        if (coord_Y>0)
+        {
+                return 2;
+        }else{
+                return 3;
+        }
+    }
+}
  static void Main()
         {
             // int n = 161;
@@ -18,6 +37,8 @@ namespace ConsoleApp1
             if ((X==0) ^ (Y==0) )
             {
                 Console.Write("Нулевые координаты не допускаются.\n");
+            }else{
+                int Quadro = Quad(X,Y);
             }
         }
     }
