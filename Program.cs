@@ -39,6 +39,8 @@ static int Quad(float coord_X, float coord_Y)
                 Console.Write("Нулевые координаты не допускаются.\n");
             }else{
                 int Quadro = Quad(X,Y);
+                string msg = "Номер координатной четверти: " + Quadro;
+                Console.WriteLine(msg);
             }
         }
     }
